@@ -29,7 +29,7 @@ The detected lane is not continous and there are some discontinuities.
 Instead of the lane lines on the ramp, the border of the ramp is detected. This is a major problem in the code which I could not fix, but I hope to 
 fix it in the future. 
 ### 4. After the ramp, lane lines are not detected
-In the frames =after the ramp, there is a blind spot in which nothing is detected. However, after a few frames, a few of the white lanes are detected.
+In the frames after the ramp, there is a blind spot in which nothing is detected. However, after a few frames, a few of the white lanes are detected.
 
 ## Conclusion
 Overall this was quite a challenging task for me. I spent quite a lot of time first understanding the conventional lane detection methods but upon applying them to this video,
