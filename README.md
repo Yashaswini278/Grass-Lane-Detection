@@ -1,5 +1,5 @@
-# Grass-Lane-Detection
-The objective of this project was to implement a method to autoamtically keep an autonomous ground vehicle within a lane defined by white chalked lines on grass. I developed the method using Computer Vision and implemented it using Python. The video used as input to the method can be found here: https://www.youtube.com/watch?v=A9BVr7kltl8
+# Grass Lane Detection
+The objective of this project was to implement a method to autoamtically keep an autonomous ground vehicle within a lane defined by white chalked lines on grass. I developed the method using Computer Vision and implemented it using Python. The video used as input to the method can be found here: https://www.youtube.com/watch?v=A9BVr7kltl8  The code has been uploaded to this repository as a .ipynb file and the output video can be found here: https://youtu.be/blcDK1o2MrM 
 
 ## Key Learnings
 1. Different color spaces other than RGB - HSV and HSL
@@ -22,14 +22,14 @@ lanes as "greenish white" (see shaded region in image below), and finally applyi
 <p>  Source: https://stackoverflow.com/questions/10948589/choosing-the-correct-upper-and-lower-hsv-boundaries-for-color-detection-withcv </p>
 
 ## Scope for improvement
-### 1. Border of obstacles and white stripes not completely removed
+### 1. Border of obstacles and white stripes could not be completely removed
 In the output video, when the obstacles started appearing, small white flickers are observed. Thus, the task of detecting only lanes is left incomplete.
-### 2. Discontinuties in lane detected
+### 2. Discontinuities in the lane were found
 The detected lane is not continous and there are some discontinuities.
-### 3. White lane on ramp not detected
+### 3. White lane on the ramp could not be detected
 Instead of the lane lines on the ramp, the border of the ramp is detected. This is a major problem in the code which I could not fix, but I hope to 
 fix it in the future. 
-### 4. After the ramp, lane lines are not detected
+### 4. The lane lines after the ramp could not be detected
 In the frames after the ramp, there is a blind spot in which nothing is detected. However, after a few frames, a few of the white lanes are detected.
 
 ## Conclusion
