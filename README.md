@@ -1,5 +1,6 @@
 # Grass-Lane-Detection
-This task was assigned to me as part of the selection process for the Autonomous Ground Vehicle Research Group software team at IIT Kharagpur.
+The objective of this project was to implement a method to autoamtically keep an autonomous ground vehicle within a lane defined by white chalked lines on grass. I developed the method using Computer Vision and implemented it using Python. The video used as input to the method can be found here: https://www.youtube.com/watch?v=A9BVr7kltl8
+
 ## Key Learnings
 1. Different color spaces other than RGB - HSV and HSL
 2. Image segmentation via color spaces
