@@ -1,5 +1,5 @@
 # Grass Lane Detection
-The objective of this project was to implement a method to autoamtically keep an autonomous ground vehicle within a lane defined by white chalked lines on grass. I developed the method using Computer Vision and implemented it using Python. <br/> <br/> The video used as input to the method can be found here: https://www.youtube.com/watch?v=A9BVr7kltl8  <br/> <br/> The code has been uploaded to this repository as a .ipynb file, <br/> <br/> The output video can be found here: https://youtu.be/blcDK1o2MrM 
+The objective of this project was to implement a method to automatically keep an autonomous ground vehicle within a lane defined by white chalked lines on grass. I developed the method using Computer Vision and implemented it using Python. <br/> <br/> The video used as input to the method can be found here: https://www.youtube.com/watch?v=A9BVr7kltl8  <br/> <br/> The code has been uploaded to this repository as a .ipynb file, <br/> <br/> The output video can be found here: https://youtu.be/blcDK1o2MrM 
 
 ## Key Learnings
 1. Different color spaces other than RGB - HSV and HSL
